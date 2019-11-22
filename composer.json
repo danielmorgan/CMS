@@ -11,8 +11,8 @@
     "require": {
         "php": ">=7.1.3",
         "illuminate/support": "^6.5",
-        "grafite/crudmaker": "1.4.*",
-        "grafite/formmaker": "^2.1.10",
+        "danielmorgan/grafite-crudmaker": "1.4.*",
+        "danielmorgan/grafite-formmaker": "^2.1.10",
         "laravelcollective/html": "^6.0",
         "devfactory/minify": "1.0.*",
         "aws/aws-sdk-php": "^3.18",
@@ -53,5 +53,11 @@
                 "Grafite\\Cms\\GrafiteCmsProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/danielmorgan/grafite-cms"
+        }
+    ]
 }
